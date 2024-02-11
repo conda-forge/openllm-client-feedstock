@@ -1,5 +1,5 @@
 {% set name = "openllm-client" %}
-{% set version = "0.4.31" %}
+{% set version = "0.4.44" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openllm_client-{{ version }}.tar.gz
-  sha256: 77dd0a5a80b3f96b7c0b50cac0099b636d58f289a5fa745168bdcde8a36db1c9
+  sha256: 9353423c1d59ddd02cb94a462885e00292a7b58f24c12f6836006b79443eb57c
 
 build:
   noarch: python
@@ -45,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - rxm7706
+    - conda-forge/openllm-core
