@@ -1,5 +1,5 @@
 {% set name = "openllm-client" %}
-{% set version = "0.5.6" %}
+{% set version = "0.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openllm_client-{{ version }}.tar.gz
-  sha256: 31bb65c4bb8d8fed72d54251d991cf069c02ebd20bcc1f97ee1f6b8bb62efc3a
+  sha256: 5fa9ab4b5d65a149dce91328bf734123846b8e48af3cdc16ee183e809db61b00
 
 build:
   noarch: python
