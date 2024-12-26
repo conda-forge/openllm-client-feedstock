@@ -143,6 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/openllm-core](https://github.com/conda-forge/openllm-core/)
+* [@conda-forge/openllm-core](https://github.com/orgs/conda-forge/teams/openllm-core/)
 * [@rxm7706](https://github.com/rxm7706/)
 
